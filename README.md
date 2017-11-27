@@ -13,10 +13,11 @@ then run "git apply" on the included diff file.
 
 Use the UDP source to read a complex IQ stream from a UDP socket.
 Say you have a SDR radio that sends its stream to a particular 
-UDP socket.  To read this stream, use a UDP source.
+UDP socket.  To read this stream, use a UDP source.  On 
+the other hand the UDP sink is used to send a IQ stream
+to a UDP socket.  
 
-On the other hand the UDP sink is used to send a IQ stream 
-to a UDP socket.  Both UDP sink and source have the following
+Both UDP sink and source have the following
 parameters.
 
     host="<hostname of UDP socket>"
