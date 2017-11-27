@@ -31,7 +31,7 @@ sent to a UDP socket located on your host on port 7777 with
 a frequency of 100 MHz and a sampling rate of 1 MSPS, set the
 device string to:
 
-    udp,host="0.0.0.0",port=7777,freq=100e6,rate=1e6,throttle=false
+    udp=0,host='0.0.0.0',port=7777,freq=100e6,rate=1e6,throttle=false
 
 It is recommended to disable the throttle.
 
