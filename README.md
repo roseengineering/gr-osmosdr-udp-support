@@ -11,7 +11,7 @@ then run "git apply" on the included diff file.
     $ cd gr-osmosdr
     $ git apply ../gr-osmosdr.diff
 
-Use the UDP source to read a complex IQ stream from a UDP socket.  
+Use the UDP source to read a complex IQ stream from a UDP socket.
 Say you have a SDR radio that sends its stream to a particular 
 UDP socket.  To read it use a UDP source.
 
