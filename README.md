@@ -17,7 +17,7 @@ UDP socket.  To read this stream, use a UDP source.  On
 the other hand the UDP sink is used to send a IQ stream
 to a UDP socket.  
 
-Both UDP sink and source have the following
+Both UDP sink and source blocks use the following
 parameters.
 
     host="<hostname of UDP socket>"
